@@ -49,16 +49,6 @@ https://demo.fastadmin.net
 ## 界面截图
 ![控制台](https://images.gitee.com/uploads/images/2020/0929/202947_8db2d281_10933.gif "控制台")
 
-## 问题反馈
-
-在使用中有任何问题，请使用以下联系方式联系我们
-
-问答社区: https://ask.fastadmin.net
-
-Github: https://github.com/fastadminnet/fastadmin
-
-Gitee: https://gitee.com/fastadminnet/fastadmin
-
 ## 特别鸣谢
 
 感谢以下的项目,排名不分先后
