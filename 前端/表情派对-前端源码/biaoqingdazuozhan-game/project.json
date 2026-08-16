@@ -1,0 +1,9 @@
+{
+  "engine": "cocos2d-html5",
+  "packages": "packages",
+  "version": "2.4.6",
+  "name": "BiaoQingPaiDuiGame",
+  "id": "71f246a9-a260-4b61-9144-f749de698164",
+  "isNew": false,
+  "libVersion": "latest"
+}

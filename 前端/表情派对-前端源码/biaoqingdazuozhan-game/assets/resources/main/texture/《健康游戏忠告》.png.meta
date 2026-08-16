@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "87b0ce3a-30d5-4311-89d9-57a2906d616a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 575,
+  "height": 105,
+  "platformSettings": {},
+  "subMetas": {
+    "《健康游戏忠告》": {
+      "ver": "1.0.6",
+      "uuid": "ba216b28-5b11-49b4-8831-a7f0cd8b4d9d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "87b0ce3a-30d5-4311-89d9-57a2906d616a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0.5,
+      "trimX": 3,
+      "trimY": 2,
+      "width": 570,
+      "height": 100,
+      "rawWidth": 575,
+      "rawHeight": 105,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

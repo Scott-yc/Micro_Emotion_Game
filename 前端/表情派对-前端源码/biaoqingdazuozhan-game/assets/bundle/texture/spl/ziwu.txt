@@ -1,0 +1,83 @@
+
+ziwu.png
+size: 1602,769
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+z1
+  rotate: false
+  xy: 1342, 471
+  size: 252, 296
+  orig: 257, 313
+  offset: 4, 16
+  index: -1
+z10
+  rotate: true
+  xy: 1123, 43
+  size: 190, 286
+  orig: 198, 291
+  offset: 4, 4
+  index: -1
+z11
+  rotate: false
+  xy: 1411, 187
+  size: 189, 282
+  orig: 192, 286
+  offset: 2, 1
+  index: -1
+z2
+  rotate: false
+  xy: 1080, 235
+  size: 260, 532
+  orig: 266, 580
+  offset: 1, 1
+  index: -1
+z3
+  rotate: false
+  xy: 814, 235
+  size: 264, 532
+  orig: 271, 568
+  offset: 3, 4
+  index: -1
+z4
+  rotate: false
+  xy: 275, 230
+  size: 268, 537
+  orig: 274, 571
+  offset: 5, 16
+  index: -1
+z5
+  rotate: false
+  xy: 2, 227
+  size: 271, 540
+  orig: 280, 577
+  offset: 5, 19
+  index: -1
+z6
+  rotate: false
+  xy: 545, 230
+  size: 267, 537
+  orig: 271, 577
+  offset: 1, 21
+  index: -1
+z7
+  rotate: true
+  xy: 2, 2
+  size: 223, 510
+  orig: 316, 543
+  offset: 4, 1
+  index: -1
+z8
+  rotate: true
+  xy: 514, 10
+  size: 218, 308
+  orig: 224, 316
+  offset: 5, 4
+  index: -1
+z9
+  rotate: true
+  xy: 824, 20
+  size: 213, 297
+  orig: 221, 302
+  offset: 7, 1
+  index: -1

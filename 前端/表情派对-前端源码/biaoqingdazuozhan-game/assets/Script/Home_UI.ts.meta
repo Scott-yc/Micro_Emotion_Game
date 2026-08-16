@@ -1,0 +1,10 @@
+{
+  "ver": "1.1.0",
+  "uuid": "bed2028b-addb-41a0-9aad-2b65064d59b4",
+  "importer": "typescript",
+  "isPlugin": false,
+  "loadPluginInWeb": true,
+  "loadPluginInNative": true,
+  "loadPluginInEditor": false,
+  "subMetas": {}
+}

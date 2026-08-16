@@ -1,0 +1,8 @@
+{
+  "appid": "wx3e9e9e6c81347739",
+  "orientation": "landscape",
+  "separate_engine": false,
+  "REMOTE_SERVER_ROOT": "https://resource.emoparty.com",
+  "subContext": "wx_open",
+  "startSceneAssetBundle": false
+}

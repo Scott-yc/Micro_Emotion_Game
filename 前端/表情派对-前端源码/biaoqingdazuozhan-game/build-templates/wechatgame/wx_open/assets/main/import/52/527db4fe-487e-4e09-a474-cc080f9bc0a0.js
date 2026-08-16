@@ -1,0 +1,1 @@
+module.exports = [1,["bddqaEmfZOhJb2JFF/pEGv"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"银","rect":[0,0,48,53],"offset":[0,0],"originalSize":[48,53],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]];

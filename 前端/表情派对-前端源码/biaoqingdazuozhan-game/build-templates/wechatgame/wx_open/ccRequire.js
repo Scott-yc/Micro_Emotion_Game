@@ -1,0 +1,66 @@
+let moduleMap = {
+'assets/internal/index.js' () { return require('assets/internal/index.js') },
+'assets/main/index.js' () { return require('assets/main/index.js') },
+'assets/internal/config.js' () { return require('assets/internal/config.js'); },
+'assets/internal/import/02/0275e94c-56a7-410f-bd1a-fc7483f7d14a.js' () { return require('assets/internal/import/02/0275e94c-56a7-410f-bd1a-fc7483f7d14a.js'); },
+'assets/internal/import/0e/0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7.js' () { return require('assets/internal/import/0e/0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7.js'); },
+'assets/internal/import/14/144c3297-af63-49e8-b8ef-1cfa29b3be28.js' () { return require('assets/internal/import/14/144c3297-af63-49e8-b8ef-1cfa29b3be28.js'); },
+'assets/internal/import/28/2874f8dd-416c-4440-81b7-555975426e93.js' () { return require('assets/internal/import/28/2874f8dd-416c-4440-81b7-555975426e93.js'); },
+'assets/internal/import/2a/2a296057-247c-4a1c-bbeb-0548b6c98650.js' () { return require('assets/internal/import/2a/2a296057-247c-4a1c-bbeb-0548b6c98650.js'); },
+'assets/internal/import/2a/2a7c0036-e0b3-4fe1-8998-89a54b8a2bec.js' () { return require('assets/internal/import/2a/2a7c0036-e0b3-4fe1-8998-89a54b8a2bec.js'); },
+'assets/internal/import/30/30682f87-9f0d-4f17-8a44-72863791461b.js' () { return require('assets/internal/import/30/30682f87-9f0d-4f17-8a44-72863791461b.js'); },
+'assets/internal/import/3a/3a7bb79f-32fd-422e-ada2-96f518fed422.js' () { return require('assets/internal/import/3a/3a7bb79f-32fd-422e-ada2-96f518fed422.js'); },
+'assets/internal/import/46/466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a.js' () { return require('assets/internal/import/46/466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a.js'); },
+'assets/internal/import/6d/6d91e591-4ce0-465c-809f-610ec95019c6.js' () { return require('assets/internal/import/6d/6d91e591-4ce0-465c-809f-610ec95019c6.js'); },
+'assets/internal/import/6f/6f801092-0c37-4f30-89ef-c8d960825b36.js' () { return require('assets/internal/import/6f/6f801092-0c37-4f30-89ef-c8d960825b36.js'); },
+'assets/internal/import/7a/7afd064b-113f-480e-b793-8817d19f63c3.js' () { return require('assets/internal/import/7a/7afd064b-113f-480e-b793-8817d19f63c3.js'); },
+'assets/internal/import/a1/a153945d-2511-4c14-be7b-05d242f47d57.js' () { return require('assets/internal/import/a1/a153945d-2511-4c14-be7b-05d242f47d57.js'); },
+'assets/internal/import/c0/c0040c95-c57f-49cd-9cbc-12316b73d0d4.js' () { return require('assets/internal/import/c0/c0040c95-c57f-49cd-9cbc-12316b73d0d4.js'); },
+'assets/internal/import/cf/cf7e0bb8-a81c-44a9-ad79-d28d43991032.js' () { return require('assets/internal/import/cf/cf7e0bb8-a81c-44a9-ad79-d28d43991032.js'); },
+'assets/internal/import/e0/e02d87d4-e599-4d16-8001-e14891ac6506.js' () { return require('assets/internal/import/e0/e02d87d4-e599-4d16-8001-e14891ac6506.js'); },
+'assets/internal/import/ec/eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432.js' () { return require('assets/internal/import/ec/eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432.js'); },
+'assets/internal/import/f1/f18742d7-56d2-4eb5-ae49-2d9d710b37c8.js' () { return require('assets/internal/import/f1/f18742d7-56d2-4eb5-ae49-2d9d710b37c8.js'); },
+'assets/main/config.js' () { return require('assets/main/config.js'); },
+'assets/main/import/03/03370cea-952c-415f-a0c4-eaf4c0b789a6.js' () { return require('assets/main/import/03/03370cea-952c-415f-a0c4-eaf4c0b789a6.js'); },
+'assets/main/import/05/05812a0b-9a4d-4c18-8410-c56415463d04.js' () { return require('assets/main/import/05/05812a0b-9a4d-4c18-8410-c56415463d04.js'); },
+'assets/main/import/0c/0cf0006f-ad7f-4ca9-a8ac-25a48e66bcef.js' () { return require('assets/main/import/0c/0cf0006f-ad7f-4ca9-a8ac-25a48e66bcef.js'); },
+'assets/main/import/0e/0ec84780-69ca-4d1c-ae07-6510623d7fdd.js' () { return require('assets/main/import/0e/0ec84780-69ca-4d1c-ae07-6510623d7fdd.js'); },
+'assets/main/import/0f/0f31ddb1-8733-4571-979c-2fbfc0172df0.js' () { return require('assets/main/import/0f/0f31ddb1-8733-4571-979c-2fbfc0172df0.js'); },
+'assets/main/import/1a/1ac3aa38-8c3f-4d22-b91c-2b3ae2e990b7.js' () { return require('assets/main/import/1a/1ac3aa38-8c3f-4d22-b91c-2b3ae2e990b7.js'); },
+'assets/main/import/1e/1ee857b2-ec50-4ca4-bbaa-5a85ad09dfbd.js' () { return require('assets/main/import/1e/1ee857b2-ec50-4ca4-bbaa-5a85ad09dfbd.js'); },
+'assets/main/import/27/27b71dd8-2cdb-4617-9ddb-7120c38cf5a1.js' () { return require('assets/main/import/27/27b71dd8-2cdb-4617-9ddb-7120c38cf5a1.js'); },
+'assets/main/import/33/330ca2a1-a045-4d01-ab66-6aeef2858a6e.js' () { return require('assets/main/import/33/330ca2a1-a045-4d01-ab66-6aeef2858a6e.js'); },
+'assets/main/import/35/35bde488-2e59-4104-80db-79396d0b2dba.js' () { return require('assets/main/import/35/35bde488-2e59-4104-80db-79396d0b2dba.js'); },
+'assets/main/import/38/38dc5455-b6f7-4ae1-9ba3-4ac864ac4e9e.js' () { return require('assets/main/import/38/38dc5455-b6f7-4ae1-9ba3-4ac864ac4e9e.js'); },
+'assets/main/import/4d/4d8cb064-9cfd-4877-8808-9fd9555f8744.js' () { return require('assets/main/import/4d/4d8cb064-9cfd-4877-8808-9fd9555f8744.js'); },
+'assets/main/import/52/527db4fe-487e-4e09-a474-cc080f9bc0a0.js' () { return require('assets/main/import/52/527db4fe-487e-4e09-a474-cc080f9bc0a0.js'); },
+'assets/main/import/54/54a80452-5430-47fe-929b-0477a8d86196.js' () { return require('assets/main/import/54/54a80452-5430-47fe-929b-0477a8d86196.js'); },
+'assets/main/import/5b/5b1e1c4c-17d3-4c86-abcb-25975ff1062d.js' () { return require('assets/main/import/5b/5b1e1c4c-17d3-4c86-abcb-25975ff1062d.js'); },
+'assets/main/import/5d/5df3a602-f426-4062-a6c9-085579eb813e.js' () { return require('assets/main/import/5d/5df3a602-f426-4062-a6c9-085579eb813e.js'); },
+'assets/main/import/86/8690450a-9609-4a0b-8137-ae0a0ddcf0c6.js' () { return require('assets/main/import/86/8690450a-9609-4a0b-8137-ae0a0ddcf0c6.js'); },
+'assets/main/import/8c/8cbfa354-3be2-4a55-89a8-ba31b968fc3e.js' () { return require('assets/main/import/8c/8cbfa354-3be2-4a55-89a8-ba31b968fc3e.js'); },
+'assets/main/import/9b/9beffd3c-8167-45a7-81d3-19fb28f45b6c.js' () { return require('assets/main/import/9b/9beffd3c-8167-45a7-81d3-19fb28f45b6c.js'); },
+'assets/main/import/bd/bd76a684-99f6-4e84-96f6-24517fa441af.js' () { return require('assets/main/import/bd/bd76a684-99f6-4e84-96f6-24517fa441af.js'); },
+'assets/main/import/c5/c58d6e8a-c042-4390-a256-2ee407d48819.js' () { return require('assets/main/import/c5/c58d6e8a-c042-4390-a256-2ee407d48819.js'); },
+'assets/main/import/cb/cbed472f-99a2-4c5e-89ce-98df681af6d1.js' () { return require('assets/main/import/cb/cbed472f-99a2-4c5e-89ce-98df681af6d1.js'); },
+'assets/main/import/cd/cd9d9a83-49a8-4272-9ffd-5314bb7588ab.js' () { return require('assets/main/import/cd/cd9d9a83-49a8-4272-9ffd-5314bb7588ab.js'); },
+'assets/main/import/ce/ce0f98fc-f6c7-4647-95e1-66417f060c5a.js' () { return require('assets/main/import/ce/ce0f98fc-f6c7-4647-95e1-66417f060c5a.js'); },
+'assets/main/import/d8/d800df07-770d-4e52-9782-e705c4ef8c81.js' () { return require('assets/main/import/d8/d800df07-770d-4e52-9782-e705c4ef8c81.js'); },
+'assets/main/import/db/db8961ec-5907-4c1a-8193-d14d9e7c211f.js' () { return require('assets/main/import/db/db8961ec-5907-4c1a-8193-d14d9e7c211f.js'); },
+'assets/main/import/e7/e7b104fd-7f77-45a8-82aa-3c7743f96562.js' () { return require('assets/main/import/e7/e7b104fd-7f77-45a8-82aa-3c7743f96562.js'); },
+'assets/main/import/ec/ec601319-640b-4790-807f-41a82937bb91.js' () { return require('assets/main/import/ec/ec601319-640b-4790-807f-41a82937bb91.js'); },
+'assets/main/import/ed/ed1d4eb8-0352-46f5-8f0d-3b9468759054.js' () { return require('assets/main/import/ed/ed1d4eb8-0352-46f5-8f0d-3b9468759054.js'); },
+'assets/main/import/f9/f935b301-1e2a-4b1e-b111-5b5028c81b67.js' () { return require('assets/main/import/f9/f935b301-1e2a-4b1e-b111-5b5028c81b67.js'); },
+'assets/main/import/fb/fbbe1d05-817f-4918-ae22-7ff329ce1de4.js' () { return require('assets/main/import/fb/fbbe1d05-817f-4918-ae22-7ff329ce1de4.js'); },
+'assets/main/import/ff/ff4dd497-8385-4972-8372-1c35e0f4c328.js' () { return require('assets/main/import/ff/ff4dd497-8385-4972-8372-1c35e0f4c328.js'); },
+// tail
+
+};
+
+window.__cocos_require__ = function (moduleName) {
+    let func = moduleMap[moduleName];
+    if (!func) {
+        throw new Error(`cannot find module ${moduleName}`);
+    }
+    return func();
+};

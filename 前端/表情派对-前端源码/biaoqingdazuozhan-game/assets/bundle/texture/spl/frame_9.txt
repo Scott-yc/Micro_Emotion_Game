@@ -1,0 +1,69 @@
+
+frame_9.png
+size: 541,451
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_2
+  rotate: true
+  xy: 2, 157
+  size: 146, 176
+  orig: 148, 178
+  offset: 1, 1
+  index: -1
+frame_3
+  rotate: true
+  xy: 191, 3
+  size: 149, 176
+  orig: 151, 178
+  offset: 1, 1
+  index: -1
+frame_4
+  rotate: true
+  xy: 352, 154
+  size: 148, 186
+  orig: 150, 188
+  offset: 1, 1
+  index: -1
+frame_5
+  rotate: true
+  xy: 2, 305
+  size: 144, 181
+  orig: 146, 183
+  offset: 1, 1
+  index: -1
+frame_6
+  rotate: true
+  xy: 180, 157
+  size: 146, 170
+  orig: 148, 172
+  offset: 1, 1
+  index: -1
+frame_7
+  rotate: true
+  xy: 369, 2
+  size: 150, 170
+  orig: 152, 172
+  offset: 1, 1
+  index: -1
+frame_8
+  rotate: true
+  xy: 2, 7
+  size: 148, 187
+  orig: 150, 189
+  offset: 1, 1
+  index: -1
+frame_9
+  rotate: true
+  xy: 364, 304
+  size: 145, 174
+  orig: 147, 176
+  offset: 1, 1
+  index: -1
+图层 1
+  rotate: true
+  xy: 185, 305
+  size: 144, 177
+  orig: 146, 179
+  offset: 1, 1
+  index: -1
