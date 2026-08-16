@@ -44,8 +44,6 @@ https://demo.fastadmin.net
 
 密　码：123456
 
-提　示：演示站数据无法进行修改，请下载源码安装体验全部功能
-
 ## 界面截图
 ![控制台](https://images.gitee.com/uploads/images/2020/0929/202947_8db2d281_10933.gif "控制台")
 
